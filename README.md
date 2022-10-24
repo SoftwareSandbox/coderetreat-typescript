@@ -1,11 +1,11 @@
 # Code Retreat with TypeScript
 
-TypeScript kickstarted with [Mocha](http://mochajs.org) and [Chai](http://chaijs.com).
+TypeScript kickstarted with [Jest](https://jestjs.io/docs/using-matchers)
 
 ## Before you play
 `npm install`
 
 ## Running tests/specs
-`npm test`
+`npm run test:watch`
 
 GL HF!
