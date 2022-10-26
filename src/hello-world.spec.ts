@@ -1,7 +1,6 @@
-import { hello } from './HelloWorld';
+import { hello } from './hello-world';
 
 describe('hello function', () => {
-
   it('without given parameter, should return hello 🗺️️️️', () => {
     const result = hello();
     expect(result).toEqual('Hello 🗺️!');
@@ -11,5 +10,4 @@ describe('hello function', () => {
     const result = hello('snarf');
     expect(result).toEqual('Hello snarf!');
   });
-
 });
